@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">DTS_Tugas_Game_Puzzle_Huruf</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_new_game">New Game</string>
+    <string name="action_help">Help</string>
+    <string name="button_1">A</string>
+    <string name="button_2">B</string>
+    <string name="button_3">C</string>
+    <string name="button_4">D</string>
+    <string name="button_5">E</string>
+    <string name="button_6">F</string>
+    <string name="button_7">G</string>
+    <string name="button_8">H</string>
+    <string name="button_9">I</string>
+    <string name="button_10">J</string>
+    <string name="button_11">K</string>
+    <string name="button_12">L</string>
+    <string name="button_13">M</string>
+    <string name="button_14">N</string>
+    <string name="button_15">O</string>
+    <string name="button_newGame">New Game</string>
+    <string name="newGameMessage">Klik New Game untuk mulai bermain!</string>
+    <string name="playAgainMessage">You Win!</string>
+    <string name="Ulangi">Ulangi </string>
+    <string name="Keluar">Keluar</string>>
+</resources>

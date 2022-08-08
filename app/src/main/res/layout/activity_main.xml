@@ -1,0 +1,187 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_above="@+id/button5"
+        android:text="@string/button_1"
+        android:onClick="clickSliderTile"
+        android:layout_marginHorizontal="1dp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_toRightOf="@id/button1"
+        android:text="@string/button_2"
+        android:onClick="clickSliderTile"
+        android:layout_marginHorizontal="1dp"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_above="@+id/button5"
+        android:layout_toRightOf="@+id/button2"
+        android:text="@string/button_3"
+        android:onClick="clickSliderTile"
+        android:layout_marginHorizontal="1dp"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_above="@+id/button5"
+        android:layout_toRightOf="@id/button3"
+        android:text="@string/button_4"
+        android:onClick="clickSliderTile"
+        android:layout_marginHorizontal="1dp"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_below="@+id/button2"
+        android:text="@string/button_5"
+        android:onClick="clickSliderTile"
+        android:layout_marginHorizontal="1dp"/>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignBottom="@+id/button5"
+        android:layout_toRightOf="@+id/button5"
+        android:text="@string/button_6"
+        android:onClick="clickSliderTile"
+        android:layout_marginHorizontal="1dp"/>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignBottom="@id/button5"
+        android:layout_toRightOf="@id/button6"
+        android:text="@string/button_7"
+        android:onClick="clickSliderTile"
+        android:layout_marginHorizontal="1dp"/>
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignBottom="@+id/button5"
+        android:layout_toRightOf="@+id/button7"
+        android:text="@string/button_8"
+        android:onClick="clickSliderTile"
+        android:layout_marginHorizontal="1dp"/>
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_below="@+id/button5"
+        android:text="@string/button_9"
+        android:onClick="clickSliderTile"
+        android:layout_marginHorizontal="1dp"/>
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignBottom="@id/button9"
+        android:layout_toRightOf="@id/button9"
+        android:text="@string/button_10"
+        android:onClick="clickSliderTile"
+        android:layout_marginHorizontal="1dp"/>
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignBottom="@id/button9"
+        android:layout_toRightOf="@id/button10"
+        android:text="@string/button_11"
+        android:onClick="clickSliderTile"
+        android:layout_marginHorizontal="1dp"/>
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignBottom="@id/button9"
+        android:layout_toRightOf="@id/button11"
+        android:text="@string/button_12"
+        android:onClick="clickSliderTile"
+        android:layout_marginHorizontal="1dp"/>
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_below="@id/button9"
+        android:text="@string/button_13"
+        android:onClick="clickSliderTile"
+        android:layout_marginHorizontal="1dp"/>
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignBottom="@id/button13"
+        android:layout_toRightOf="@id/button13"
+        android:text="@string/button_14"
+        android:onClick="clickSliderTile"
+        android:layout_marginHorizontal="1dp"/>
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignBottom="@id/button13"
+        android:layout_toRightOf="@id/button14"
+        android:text="@string/button_15"
+        android:onClick="clickSliderTile"
+        android:layout_marginHorizontal="1dp"/>
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_below="@+id/button9"
+        android:layout_toRightOf="@+id/button15"
+        android:visibility="gone"
+        android:onClick="clickSliderTile"
+        android:layout_marginHorizontal="1dp"/>
+
+    <Button
+        android:id="@+id/button_newGame"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/button_newGame"
+        android:onClick="clickNewGame"
+        />
+
+    <TextView
+        android:id="@+id/textView_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_newGame"
+        android:paddingBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/newGameMessage"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+</RelativeLayout>
